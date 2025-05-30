@@ -1,4 +1,4 @@
-# Ballistic Duel | [Баллистическая Дуэль](https://github.com/ArtemisYur/BallisticPixelDuel/edit/main/README.md)
+# Ballistic Duel | [Баллистическая Дуэль](https://github.com/ArtemisYur/BallisticPixelDuel/blob/main/README.md)
 This is Ballistic Duel, pixel-styled game featuring mechanic of duel between two ballistas.
 Set speed, mass and angle of shoot to destroy your opponent!
 
