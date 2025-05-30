@@ -16,14 +16,14 @@ Set speed, mass and angle of shoot to destroy your opponent!
 - Two profiles: drop-down list + the ability to create a new one.
 - All settings: names, background, language, music, weather, planet, chaos level.
 - Tracking matches between players (log in their profiles).
-🔧 Comment: Fully implementable. It is worth providing confirmation before creating a new profile to avoid garbage.
+* 🔧 Comment: Fully implementable. It is worth providing confirmation before creating a new profile to avoid garbage.
 
 ### 2. Campaign
 - One player → one profile.
 - List of levels (visualized list of buttons).
 - Each level sets fixed conditions: planet, weather, difficulty.
 - Player progress is recorded in the profile.
-🔧 Supplement:
+* 🔧 Supplement:
 - Add a star rating system (1–3), passing with minimal errors.
 - You can introduce scenarios/missions (for example: "shoot three times to win").
 
@@ -31,8 +31,8 @@ Set speed, mass and angle of shoot to destroy your opponent!
 - One player.
 - Manual selection of all settings.
 - Based on the selected parameters (gravity, chaos, weather, etc.), the difficulty is assessed: Normal / Hard / Nightmare
-🔧 Idea: Introduce the calculation of "difficulty points" and display before the start of the game. For example: Difficulty: 4.3/5 (Nightmare)
-📌 Criticism: It is necessary to clearly define how the AI ​​will shoot (simplified bot? simulation?). You can start with random + minimum zoom.
+* 🔧 Idea: Introduce the calculation of "difficulty points" and display before the start of the game. For example: Difficulty: 4.3/5 (Nightmare)
++ 📌 Criticism: It is necessary to clearly define how the AI ​​will shoot (simplified bot? simulation?). You can start with random + minimum zoom.
 
 ## ⚙️ SETTINGS (universal for all modes)
 
@@ -60,7 +60,7 @@ Inside:
 "settings": {...}
 }
 
-🔧 Recommendations:
+* 🔧 Recommendations:
 - Store files in a separate folder /profiles/.
 - Automatically scan and display profiles on startup.
 - Add a garbage filter (e.g. when creating, require name confirmation + at least 3 characters).
@@ -73,10 +73,10 @@ Inside:
 | Cannon | charge, angle | force = press duration |
 | Railgun | voltage, induction, angle | several scales or 2D panel |
 
-🔧 Idea development:
+* 🔧 Idea development:
 - Each weapon is unlocked as you progress.
 - You can give the player a random/limited weapon in the campaign.
-📌 Implementation: You will need an abstract Weapon class, inheritors with get_trajectory().
++ 📌 Implementation: You will need an abstract Weapon class, inheritors with get_trajectory().
 
 ## 🪜 IMPLEMENTATION PLAN (by stages)
 
