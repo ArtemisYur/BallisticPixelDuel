@@ -1,0 +1,125 @@
+{
+    "defaults": {
+        "colours": {
+            "normal_text": "#E0E0E0",         
+            "hovered_text": "#FFFFFF",        
+            "disabled_text": "#707070",       
+            "selected_text": "#FFFFCC",       
+            "active_text": "#FFFFEE",         
+            "normal_bg": "#1A1A3A",           
+            "hovered_bg": "#2A2A5A",          
+            "disabled_bg": "#10102A",         
+            "selected_bg": "#3A3A6A",         
+            "active_bg": "#4A4A7A",           
+            "dark_bg": "#0D0D1F",             
+            "normal_border": "#5599FF",       
+            "hovered_border": "#88BBFF",      
+            "disabled_border": "#224488"      
+        },
+        "font": {
+            "name": "Press Start 2P, Consolas, Courier New, monospace",
+            "size": "16",
+            "bold": "0",
+            "italic": "0"
+        }
+    },
+    "button": {
+        "colours":{
+            "normal_bg": "#0066AA",           
+            "hovered_bg": "#0088CC",          
+            "active_bg": "#00AADD",           
+            "normal_text": "#FFFFFF",
+            "hovered_text": "#FFFFEE",
+            "active_text": "#FFFFFF"
+        },
+        "misc": {
+            "border_width": "2",
+            "shadow_width": "3",              
+            "tool_tip_delay": "0.8",
+            "border_radius": "5"              
+        },
+        "font": {
+            "name": "Press Start 2P, Consolas, Courier New, monospace",
+            "size": "18",
+            "bold": "1"
+        }
+    },
+    "text_entry_line": {
+        "colours": {
+            "dark_bg": "#0A0A15",             
+            "normal_text": "#00FF00",         
+            "selected_text": "#00FFFF",       
+            "normal_border": "#00AA00"        
+        },
+        "misc": {
+            "border_width": "1",
+            "padding": "6,6",                 
+            "border_radius": "3"              
+        },
+        "font": {
+            "name": "Press Start 2P, Consolas, Courier New, monospace",
+            "size": "16"
+        }
+    },
+    "label":{
+        "colours":{
+            "normal_text": "#FFEECC"          
+        },
+        "font": {
+            "name": "Press Start 2P, Consolas, Courier New, monospace",
+            "size": "16"
+        }
+    },
+    "ulabel":{
+        "colours":{
+            "normal_text": "#CCEEFF"          
+        },
+        "font": {
+            "name": "Press Start 2P, Consolas, Courier New, monospace",
+            "size": "20",
+            "bold": "1"
+        }
+    },
+    "window": {
+        "colours": {
+            "dark_bg": "#15152F",             
+            "normal_border": "#66CCFF",       
+            "title_bar_normal_bg": "#223366", 
+            "title_bar_text": "#E0E0E0"
+        },
+        "misc": {
+            "border_width": "4",              
+            "shadow_width": "6",              
+            "title_bar_height": "35",
+            "border_radius": "8"              
+        },
+        "font": {
+            "name": "Press Start 2P, Consolas, Courier New, monospace",
+            "size": "18",
+            "bold": "1"
+        }
+    },
+    "#game_over_window": {
+        "colours": {
+            "dark_bg": "#200A0A"              
+        }
+    },
+    "#play_again_button":{
+        "colours":{
+            "normal_bg": "#CC5500",           
+            "hovered_bg": "#FF7700",
+            "normal_text": "#FFFFFF",
+            "hovered_text": "#FFFFEE"
+        }
+    },
+    "@title_label": {
+        "font": {
+            "name": "Press Start 2P, Consolas, Courier New, monospace",
+            "size": "28",                     
+            "bold": "1"
+        },
+        "colours": {
+            "normal_text": "#FFFF66"          
+        }
+    }
+}
