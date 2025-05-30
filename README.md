@@ -1,4 +1,4 @@
-# Баллистическая Дуэль | [Ballistic Duel](https://github.com/ArtemisYur/BallisticPixelDuel/edit/main/README.en.md)
+# Баллистическая Дуэль | [Ballistic Duel](https://github.com/ArtemisYur/BallisticPixelDuel/blob/main/README.en.md)
 Это баллистическая дуэль, стилизованная игра с механикой битвы между двумя баллистами.
 
 ![Screenshot 2025-05-30 071333](https://github.com/user-attachments/assets/89f6f36a-fba9-4035-897a-475493a550cf)
